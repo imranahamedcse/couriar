@@ -1,0 +1,322 @@
+.page-breadcrumb .breadcrumb {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+    background-color: transparent;
+    border-radius: 0px;
+    border-bottom: 0px !important;
+    padding-top: 10px;
+    font-size: 12px ;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 0px !important;
+}
+
+.swal2-popup {
+    font-size: 14px !important;
+    width: 300px;
+}
+.swal2-styled.swal2-confirm {
+    font-size: 13px !important;
+    padding: 3px 17px;
+}
+.swal2-styled.swal2-cancel {
+    font-size: 13px !important;
+    padding: 3px 9px;
+}
+
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: #e9ecef00 !important;
+}
+
+
+.select2-container .select2-selection--single {
+    height: 35px !important;
+}
+.select2-container .select2-selection--single .select2-selection__rendered{
+    padding: 5px 0 0 14px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 25px!important;
+}
+
+
+.permission-check-box input:hover,.permission-check-box label:hover{
+    cursor: pointer!important;
+}
+.permission-check-box input {
+    width:20px!important;
+    height:20px!important;
+    margin-right:10px!important;
+}
+.permission-check-box label{
+    margin-bottom: 0em!important;
+}
+.cd-timeline__img {
+    width: 35px;
+    height: 35px;
+    left: 51%;
+    margin-left: -26px;
+    margin-top: 6px;
+}
+i.timeline_icon.fas.fa-check {
+    margin-top: 11px;
+    margin-left: 11px;
+    color: white;
+}
+i.timeline_icon.fas.fa-hourglass-end {
+    color: white;
+    margin-left: 12px;
+    margin-top: 11px;
+}
+.cd-timeline__date {
+    top: -10px;
+}
+.cd-timeline__img.cd-timeline__yellow {
+    background: #ffce44;
+}
+
+td.parcel_details_title {
+    background: #0e0c28;
+    color: white;
+}
+.parcel_sub_table{
+
+	color: #0e0c28;
+}
+
+
+.deliveryman-search .select2{
+    width: 100%!important;
+}
+.highlight{
+
+	 color: #007BFF;
+}
+
+.multiple-recived-by-hub .select2{
+    width:100%!important;
+}
+
+
+.select-bulk-type{
+    width: 150px!important;
+}
+
+
+#selectAssignType .select2-selection .select2-selection--single {
+    height: 32px !important;
+}
+
+p#currentBalanceText {
+    display: inline-block;
+}
+
+.incomehubs#hubs .select2{
+    width: 100%!important;
+}
+
+
+ .chart-select span.select2{
+    float: right!important;
+}
+
+.totalCalculationHead td span{
+    color:white!important;
+}
+
+.totalCalculationRow td span{
+    font-weight: bold;
+}
+
+.w250 {
+    min-width: 250px;
+}
+
+.w200 {
+    min-width: 200px;
+}
+
+.w150 {
+    min-width: 150px;
+}
+
+.w100 {
+    min-width: 100px;
+}
+
+label.icon {
+    font-size: 2.5rem;
+    color: #7171a6;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .dashboard-main-wrapper .main-content {
+        margin-left: 0px !important;
+    }
+    .nav-left-sidebar , .lang {
+        display: none;
+    }
+    .navbar_menus {
+        display: inline;
+    }
+    .div-scroll {
+        max-height: 50vh ;
+        overflow-y: auto !important;
+    }
+    .h3 {
+        font-size: 1.25rem;
+    }
+    .cd-timeline__img {
+        left: 29px !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .dashboard-main-wrapper .main-content {
+        margin-left: 0px !important;
+    }
+    .nav-left-sidebar , .lang{
+        display: none;
+    }
+    .navbar_menus {
+        display: inline;
+    }
+    .div-scroll {
+        max-height: 50vh ;
+        overflow-y: auto !important;
+    }
+    .cd-timeline__img {
+        left: 29px !important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) {
+    .footer {
+        margin-left: 264px;
+    }
+    .dashboard-main-wrapper .main-content {
+        margin-left: 266px !important;
+    }
+    .nav-left-sidebar , .lang{
+        display: inline;
+    }
+    .navbar_menus {
+        display: none;
+    }
+    .div-scroll {
+        max-height: 50vh ;
+        overflow-y: auto !important;
+    }
+    .h3 {
+        font-size: 1.75rem;
+    }
+    .cd-timeline__img {
+        left: 29px !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .footer {
+        margin-left: 264px;
+    }
+    .dashboard-main-wrapper .main-content {
+        margin-left: 266px !important;
+    }
+    .nav-left-sidebar , .lang{
+        display: inline;
+    }
+    .div-scroll {
+        max-height: 50vh ;
+        overflow-y: initial !important;
+    }
+    .cd-timeline__img {
+        left: 29px !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .footer {
+        margin-left: 264px;
+    }
+    .dashboard-main-wrapper .main-content {
+        margin-left: 266px !important;
+    }
+    .nav-left-sidebar , .lang{
+        display: inline;
+    }
+    .navbar_menus {
+        display: none;
+    }
+    .div-scroll {
+        max-height: 50vh ;
+        overflow-y: initial !important;
+    }
+    .cd-timeline__img {
+        left: 51% !important;
+    }
+}
+
+
+/* dashboard  total color design  */
+.card.total-card-color label.icon,
+.card.total-card-color h5.text-muted,
+.card.total-card-color h1
+{
+    color:black!important;
+}
+.card.total-card-color.color-yellow{
+    background-color: #ffff004d!important;
+}
+.card.total-card-color.color-blue{
+    background-color: #0000ff2b!important;
+}
+.card.total-card-color.color-green{
+    background-color: #00800040!important;
+}
+.card.total-card-color.color-red{
+    background-color: #ff000030!important;
+}
+.card.total-card-color.color-gray{
+    background-color: #80808042!important;
+}
+
+.card.total-card-color.color-purple{
+    background-color: #ee82ee5e!important;
+}
+
+.card.total-card-color.color-aquamarine{
+    background-color: #7fffd440!important;
+}
+.card.total-card-color.color-darkorange{
+    background-color: #ff8c0052!important;
+}
+.card.total-card-color.color-darkslategrey{
+    background-color: #0451b152!important;
+}
+.card.total-card-color.color-yellowgreen{
+    background-color: #9acd327d!important;
+}
+
+.card.total-card-color.color-antiquewhite{
+    background-color: antiquewhite!important;
+}
+
+.card.total-card-color.color-greennormal{
+    background-color: #2ec55157!important;
+}
+
+
